@@ -1,0 +1,73 @@
+ #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+
+
+ body{
+        display: flex;
+        justify-content: center;
+        background-size: auto;
+        align-items: center;
+    }
+  
+
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-size: 15px; 
+    margin: 15px 0;
+  }
+  
+  
+  .days-label,
+  .hours-label,
+  .minutes-label,
+  .seconds-label {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+    
+    .days-container,
+    .hours-container,
+    .minutes-container, 
+    .seconds-container {
+      font-size: 50px;
+      color: rgba(240, 248, 255, 0.699);
+      width: 100px;
+      height: 100px;
+    }
+  
+
+  .countdown-container {
+    display: flex;
+    width: 50%;
+    align-self: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .days-container,
+  .hours-container,
+  .minutes-container, 
+  .seconds-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(168, 168, 168, 0.452);
+    border: 5px solid rgba(202, 202, 202, 0.295);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+  }
+
